@@ -4,7 +4,7 @@ let button=document.querySelector("#btn");
 let output=document.querySelector("#translate-output");
 
 function geturl(text){
-    return `${url}`;
+    return `${url}?text=${text}`;
 }
 
 function errorHandler(error)
